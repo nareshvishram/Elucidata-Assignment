@@ -2,10 +2,10 @@
 
 #### 1. Download Requirements from Requirements.txt
 
-##### 2. Simply upload excel file from directory or from the given link 
-##### The link is also given on the 'Upload An Excel File' anchor tag 
+##### 2. Simply upload an excel file from directory or from the given link 
+##### The link is also given on the 'Upload An Excel File' anchor tag which described in the give screenshot.
 
-[https://docs.google.com/spreadsheets/u/0/d/18BaRa8R-VRhhQAfesHK4lO5nD5XxsLCZsj6yBFkZGMY/](url)
+[https://docs.google.com/spreadsheets/u/0/d/18BaRa8R-VRhhQAfesHK4lO5nD5XxsLCZsj6yBFkZGMY/](url) => Link for the excel sheet
 
 ![snapshot1](https://user-images.githubusercontent.com/58872658/98233392-ff0b3200-1f84-11eb-9283-46f8b3c14ab7.JPG)
 
