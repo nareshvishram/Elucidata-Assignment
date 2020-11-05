@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div style="padding:100px;">
+<form action="" method="post" enctype="multipart/form-data">{% csrf_token %}
+    <center>
+        <p> <b><a href="https://docs.google.com/spreadsheets/u/0/d/18BaRa8R-VRhhQAfesHK4lO5nD5XxsLCZsj6yBFkZGMY/" style="color:green;font-size:25px;">Upload An Excel File: </a></b> <input type="file" name="excel_file" style="color:red;font-size:19px;" required></p>
+       <p><button type="submit" style="color:red;font-size:19px;padding:10px;">Submit</button></p>
+        </center>
+</form>
+    </div>
+<hr>
+<center>
+    <h3> <sup style="color:red">*</sup><i>Please upload a file first</i> </h3>
+<a href="{% url 'operationMenu' %}" style="font-size:30px;color:green;">Go to operation menu</a>
+
+</center>
+</body>
+</html>

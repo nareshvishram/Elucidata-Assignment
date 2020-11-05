@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task1</title>
+</head>
+<body>
+<center>
+    <h2>Automatically Downloading.............</h2>
+    {% if flag in '1' %}
+    <iframe src="{{MEDIA_URL}}File task11.xlsx"></iframe>
+    {% endif %}
+
+     {% if flag in '2' %}
+    <iframe src="{{MEDIA_URL}}File task12.xlsx"></iframe>
+    {% endif %}
+
+     {% if flag in '3' %}
+    <iframe src="{{MEDIA_URL}}File task13.xlsx"></iframe>
+    {% endif %}
+</center>
+</body>
+</html>
